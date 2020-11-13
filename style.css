@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: hsl(218, 28%, 13%);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+.logo {
+    width:100%;
+    height: auto;
+  }
+
+  .logo img {
+    max-width:100px;
+    height: auto;
+  }
+
+  .dee {
+    float: right;
+    margin-top: -1.8rem;
+}
+
+ .dee ul li {
+    float: left;
+    list-style: none;
+    padding: 0 8px 0 8px;
+    font-size: 14px;
+}
+ 
+ .dee ul li a  {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*top image section*/
+
+.top-img {
+    width: 100%;
+    height: auto;
+    margin-top: 9rem;
+}
+.top-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+/*section-b*/
+
+.section-b {
+    background-image: url("images\bg-curvy-desktop.png");
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 0 0 40px 0;
+}
+
+.para-1 {
+    font-size: 14px;
+    text-align: center;
+    color:  hsl(0, 0%, 87%);
+    margin-bottom: 2rem;
+    padding: 10px 2px 0 2px;
+}
+
+.btn {
+    display: inline;
+    align-items: center;
+    padding: 11px 55px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    margin-left: 6rem;
+} 
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*section-c*/
+
+.icon {
+    display: block;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+ }
+
+ .para-2 {
+    margin:  0 5rem;
+    font-size: 13.5px;
+    text-align: center;
+ }
+
+ /*section-d*/
+
+ .section-d {
+    padding: 10rem 20px;
+}
+
+.side-img {
+    width: 100%;
+    height: auto;
+} 
+.side-img  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 2px 5px;
+}
+
+.text {
+    margin: 0 25px;
+    margin-top: 3rem;
+}
+
+.para-3 {
+    font-size: 13.7px;
+    margin-top: 7px;
+    padding-bottom: 10px;
+}
+
+a  {
+    color:hsl(176, 68%, 64%);
+}
+
+/*section-e*/
+
+.user {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.profile-1, .profile-2, .profile-3 {
+    margin:  0 20px 20px 20px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.right {
+    float: right;
+    position: absolute;
+    top: 60%;
+    left: 23%;
+}
+
+h5 {
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  span {
+      font-size: 12px;
+  }
+  
+/*section-f*/
+
+  .section-f {
+    padding:  10px 4% 0;
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+    margin-bottom: 0;
+}
+
+.container-f {
+    background-color: hsl(217, 28%, 15%);
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 12%;
+}
+
+form {
+    padding: 20px 20px;
+}
+
+input {
+    padding: 12px 30px;
+    border-radius: 40px;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+}
+
+.btn-1 {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 1.5rem;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    margin-left: .5rem;
+} 
+
+.btn-1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 4rem;
+    background-color: hsl(216, 53%, 9%);
+    padding: 2rem;
+}
+
+.container-g {
+    display: flex ;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.ft-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ft-text {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.icn li {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 6px;
+    align-self: center;
+    color: #fff;
+}
+
+
+.move {
+    margin: 2rem auto;
+}
+
+.info{
+    display: block;
+    float: left;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info ul li {
+    list-style: none;
+    color: #fff;
+}
+
+.ft-info {
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+/*media queries*/
+
+@media screen and (min-width: 651px) {
+      
+    .container-c {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+    } 
+    
+    .container-d {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .text {
+        margin: 0 25px;
+        margin-top: 5rem;
+    }
+
+    .container-e {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 5rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .profile-1, .profile-2, .profile-3 {
+        margin:  0 20px 9rem 20px;
+    }
+
+    .right {
+        float: right;
+        margin-left: 13px;
+        margin-top: 20px;
+        position: relative;
+        left: 0;
+    }
+
+    .container-f {
+        display: block;
+        position: absolute;
+        margin-top: -5rem;
+        left: 20px;
+        right: 20px;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .container-g {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 14rem 3rem 30px 3rem;
+        max-width: 100%;
+        grid-column-gap: 5px;
+     }
+
+     .move {
+        margin-left: 4rem;
+        margin-top: .7rem;
+     } 
+
+     .ft-info {
+        font-size: 15px;
+    }
+     
+}
+
+@media screen and (min-width: 933px) {
+
+    .profile img{
+        margin-right: 0;
+    }
+
+    .right {
+        margin-right: 120px;
+        margin-top: 20px;
+     }
+
+     .ft-info {
+        font-size: 15px;
+    }
+
+}
